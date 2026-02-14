@@ -5,8 +5,9 @@
       <!-- Logo -->
       <div class="flex items-center gap-3">
         <img :src="logo" alt="Logo" class="w-12 h-12 md:w-12 md:h-12 rounded-full">
+        <h1 class="text-xl font-bold">{{ masterStore.pagodaName }}</h1>
       </div>
-
+      
       <!-- Desktop Menu -->
       <nav class="hidden md:flex space-x-6">
         <router-link

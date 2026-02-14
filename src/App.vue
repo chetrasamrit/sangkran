@@ -3,8 +3,7 @@
     <Header />
 
     <div class="flex flex-1">
-      <Sidebar />
-      <main class="flex-1 p-6 bg-gray-50">
+      <main class="flex-1 bg-gray-50">
         <router-view />
       </main>
     </div>
