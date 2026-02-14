@@ -1,0 +1,8 @@
+/* Import Battambang */
+@import "@fontsource/battambang/400.css"; /* Regular */
+@import "@fontsource/battambang/700.css"; /* Bold */
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
