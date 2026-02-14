@@ -2,7 +2,7 @@ import { defineStore } from 'pinia'
 
 export const useMasterStore = defineStore('master', {
   state: () => ({
-    pagodaName : 'វត្ត តេជោសិទ្ធារាមវត្តបានហ្លួង',
+    pagodaName : 'វត្ត តេជោសិទ្ធារាមវត្តបាន្លួង',
     managerName : 'ចៅអធិការ  <b>សៀង ទូច</b>',
     email : 'chetrasamrit2005@gmail.com',
     phone : '+855 12 345 678',
