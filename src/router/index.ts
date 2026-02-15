@@ -6,6 +6,7 @@ import About from '../pages/About.vue'
 import Photo from "../pages/Photo.vue"
 import Events from "../pages/Events.vue"
 import History from "../pages/History.vue"
+import EventDetail from "../pages/EventDetail.vue"
 
 const routes = [
   { path: '/', name: 'Home', component: Home },
@@ -14,7 +15,8 @@ const routes = [
   { path: '/events', name: 'Events', component: Events },
   { path: '/history', name: 'History', component: History },
  
-  
+    { 
+    path: '/events/:id', name: 'EventDetail', component: EventDetail,props: true},
 ]
 
 const router = createRouter({
