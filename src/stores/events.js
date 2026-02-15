@@ -16,6 +16,7 @@ import brideTheBride from "../assets/download-8.jpg";
 
 export const useEventsStore = defineStore('events', {
   state: () => ({
+    h1:'ល្បែងប្រជាប្រិយ',
     newsItems:[
   {
     id: 1,

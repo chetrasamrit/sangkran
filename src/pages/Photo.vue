@@ -5,3 +5,8 @@
     </div>
 </template>
 
+<script setup>
+import { usePhotoStore } from '../stores/photo.js' // call the store
+const photoStore = usePhotoStore() // ✅ assign to a different variable
+</script>
+

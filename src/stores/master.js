@@ -12,7 +12,7 @@ export const useMasterStore = defineStore('master', {
         { name: 'ទំព័រដើម', path: '/' },
         { name: 'កម្មវិធី', path: '/about' },
         { name: 'រូបថត', path: '/photo' },
-        { name: 'ល្បែងប្រជាប្រណី', path: '/events' },
+        { name: 'ល្បែងប្រជាប្រិយ', path: '/events' },
         { name: 'ប្រវត្តិ', path: '/history' },
     ]
   }),
